@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"func",
+				"create_function"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
 				"for",
 				"for	for …"
 			],
@@ -19,22 +27,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "admin/index.php",
-			"settings":
-			{
-				"buffer_size": 10,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.php",
-			"settings":
-			{
-				"buffer_size": 11,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -60,10 +52,15 @@
 	},
 	"file_history":
 	[
+		"/D/xampp/htdocs/news/.htaccess",
+		"/D/xampp/htdocs/news/index.php",
+		"/D/xampp/htdocs/news/admin/index.php",
+		"/D/xampp/htdocs/news/news.sublime-project",
+		"/D/xampp/htdocs/News/admin/index.php",
+		"/D/xampp/htdocs/News/index.php",
 		"/D/xampp/htdocs/Test/Multiples of 3 and 5.php",
 		"/D/xampp/htdocs/Test/Even_Fibonacci_numbers.php",
 		"/C/Users/Jadolyo/Documents/Visual Studio 2010/Projects/Fibonacci/Fibonacci/main.cpp",
-		"/D/xampp/htdocs/News/index.php",
 		"/D/xampp/htdocs/Test/index.php",
 		"/D/xampp/htdocs/Eqra2/index.php",
 		"/D/xampp/htdocs/Eqra2/views/header.php",
@@ -136,61 +133,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "admin/index.php",
-					"settings":
-					{
-						"buffer_size": 10,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10,
-								10
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.php",
-					"settings":
-					{
-						"buffer_size": 11,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7,
-								7
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -235,6 +179,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"",
+				"/D/xampp/htdocs/news/.htaccess"
+			]
 		],
 		"width": 0.0
 	},
@@ -247,7 +195,7 @@
 		"width": 380.0
 	},
 	"show_minimap": true,
-	"show_open_files": false,
+	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
 	"side_bar_width": 130.0,
