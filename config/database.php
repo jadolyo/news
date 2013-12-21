@@ -1,9 +1,7 @@
 <?php
 
-class Database {
-
-	function __constructor() {
-
-		echo "";
-	}
-}
+define('DB_TYPE', 'mysql');
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'news');
+define('DB_USER', 'root');
+define('DB_PASS', 'toor');

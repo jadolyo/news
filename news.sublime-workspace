@@ -4,8 +4,44 @@
 		"selected_items":
 		[
 			[
-				"func",
+				"method",
+				"method_exists"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"co",
+				"controller"
+			],
+			[
+				"contro",
+				"controller"
+			],
+			[
+				"else",
+				"elseif	elseif …"
+			],
+			[
+				"cont",
+				"controller"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"functio",
 				"create_function"
+			],
+			[
+				"func",
+				"function_exists"
 			],
 			[
 				"fun",
@@ -52,10 +88,44 @@
 	},
 	"file_history":
 	[
-		"/D/xampp/htdocs/news/.htaccess",
+		"/D/xampp/htdocs/news/controllers/dashboard.php",
+		"/D/xampp/htdocs/news/views/login/index.php",
+		"/D/xampp/htdocs/news/controllers/error.php",
+		"/D/xampp/htdocs/news/controllers/help.php",
+		"/D/xampp/htdocs/news/controllers/index.php",
+		"/D/xampp/htdocs/news/controllers/login.php",
+		"/D/xampp/htdocs/news/models/help_model.php",
+		"/D/xampp/htdocs/news/views/index/index.php",
+		"/D/xampp/htdocs/news/views/header.php",
+		"/D/xampp/htdocs/news/config/database.php",
+		"/D/xampp/htdocs/news/models/login_model.php",
+		"/D/xampp/htdocs/news/config/paths.php",
+		"/D/xampp/htdocs/news/views/footer.php",
 		"/D/xampp/htdocs/news/index.php",
-		"/D/xampp/htdocs/news/admin/index.php",
+		"/D/xampp/htdocs/news/libs/Model.php",
+		"/D/xampp/htdocs/news/libs/View.php",
+		"/D/xampp/htdocs/news/libs/Session.php",
+		"/D/xampp/htdocs/news/libs/Database.php",
+		"/D/xampp/htdocs/news/libs/Bootstrap.php",
+		"/D/xampp/htdocs/news/libs/Controller.php",
+		"/D/xampp/htdocs/news/views/dashboard/index.php",
+		"/D/xampp/htdocs/news/.htaccess",
+		"/C/Users/Jadolyo/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/D/xampp/htdocs/news/views/help/index.php",
+		"/D/xampp/htdocs/news/views/error/index.php",
+		"/D/xampp/htdocs/news/controllers/Database.php",
+		"/D/xampp/htdocs/news/public/js/jquery-1.10.2.min.js",
+		"/D/xampp/htdocs/news/public/css/default.css",
+		"/D/xampp/htdocs/news/libs/Models.php",
+		"/D/xampp/htdocs/news/views/index/footer.php",
+		"/D/xampp/htdocs/news/views/index/header.php",
+		"/D/xampp/htdocs/news/views/index.php",
+		"/D/xampp/htdocs/news/controllers/controller.php",
+		"/D/xampp/htdocs/news/libs/controller.php",
+		"/D/xampp/htdocs/news/libs/controller",
+		"/D/xampp/htdocs/news/controllers/erroe.php",
 		"/D/xampp/htdocs/news/news.sublime-project",
+		"/D/xampp/htdocs/news/admin/index.php",
 		"/D/xampp/htdocs/News/admin/index.php",
 		"/D/xampp/htdocs/News/index.php",
 		"/D/xampp/htdocs/Test/Multiples of 3 and 5.php",
@@ -110,6 +180,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"  ",
+			"Controller",
 			"spac",
 			"Li",
 			"container",
@@ -198,6 +270,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 130.0,
+	"side_bar_width": 145.0,
 	"status_bar_visible": true
 }
