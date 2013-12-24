@@ -3,10 +3,10 @@
 class Login extends Controller {
 
 	function __construct() {
-		parent::__construct();	
+		parent::__construct();
 	}
 	
-	function index() 
+	function index()
 	{	
 		$this->view->render('login/index');
 	}
@@ -15,6 +15,4 @@ class Login extends Controller {
 	{
 		$this->model->run();
 	}
-	
-
 }

@@ -2,7 +2,7 @@
 
 <div id="footer">
 
-	(C) This is a footer for News!
+	(C) Footer
 	</div>
 
 </body>
