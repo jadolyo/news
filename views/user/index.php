@@ -26,6 +26,7 @@ foreach ($this->userList as $key => $value) {
 	echo '<td>' . $value['role'] . '</td>';
 	echo '<td>
 	<a href="'.URL.'user/edit/'.$value['id'].'">Edit</a>
+	<b> | </b>
 	<a href="'.URL.'user/delete/'.$value['id'].'">Delete</a></td>';
 	echo '</tr>';
 }

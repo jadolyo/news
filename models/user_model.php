@@ -23,33 +23,27 @@ class User_Model extends Model
 
 	public function create($data)
 	{
-		$sth = $this->db->prepare('INSERT INTO users (`realname`, `username`, `password`, `email`, `role`)
-			VALUES (:realname, :username, :password, :email, :role)');
-
-		$sth->execute(array(
-			':realname' => $data['realname'],
-			':username' => $data['username'],
-			':password' => $data['password'],
-			':email' => $data['email'],
-			':role' => $data['role']
-		));
+		$this->db->insert('users', array(
+			'realname' => $data['realname'],
+			'username' => $data['username'],
+			'password' =>  Hash::create('md5', $data['password'], HASH_PASSWORD_KEY),
+			'email' => $data['email'],
+			'role' => $data['role']
+			));
 	}
 
 	public function editSave($data)
 	{
-		$sth = $this->db->prepare('UPDATE users
-			SET `realname` = :realname, `username` = :username, `password` = :password, `email` = :email, `role` = :role
-			WHERE id = :id
-			');
 
-		$sth->execute(array(
-			':id' => $data['id'],
-			':realname' => $data['realname'],
-			':username' => $data['username'],
-			':password' => md5($data['password']),
-			':email' => $data['email'],
-			':role' => $data['role']
-		));
+		$postData = array(
+			'realname' => $data['realname'],
+			'username' => $data['username'],
+			'password' =>  Hash::create('md5', $data['password'], HASH_PASSWORD_KEY),
+			'email' => $data['email'],
+			'role' => $data['role']
+			);
+		
+		$this->db->update('users', $postData, "`id` = {$data['id']}");
 	}
 
 	public function delete($id)

@@ -42,5 +42,4 @@ class Dashboard extends Controller {
 	{
 		$this->model->xhrDeleteListing();
 	}
-
 }
