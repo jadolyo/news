@@ -12,6 +12,6 @@ Quick and Easy installation
 
 3- Connect to your database, You need to edit "config.php" file it's very easy to edit it everthing is clear, Edit the path of "news" depending on the location of the script, You can rename the folder as you wish, but don't forget to update the path and don't forget the slash "/" after your path.
 
-4- You can login to the dashboard using username: admin , Password: admin , Then you can edit it as you wish.
+4- You can login to the dashboard using Username: admin , Password: admin , Then you can edit it as you wish.
 
 Thank you, Enjoy :)
