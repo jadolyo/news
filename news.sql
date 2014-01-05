@@ -3,12 +3,12 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Dec 24, 2013 at 07:33 PM
+-- Generation Time: Jan 05, 2014 at 04:27 AM
 -- Server version: 5.5.25a
 -- PHP Version: 5.4.4
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
-SET time_zone = "+00:00";
+SET time_zone = "+02:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -42,14 +42,14 @@ INSERT INTO `data` (`id`, `text`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `users`
+-- Table structure for table `user`
 --
 
-CREATE TABLE IF NOT EXISTS `users` (
+CREATE TABLE IF NOT EXISTS `user` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `realname` varchar(128) DEFAULT NULL,
   `username` varchar(45) NOT NULL,
-  `password` varchar(32) NOT NULL,
+  `password` varchar(64) NOT NULL,
   `email` varchar(128) NOT NULL,
   `role` enum('default','admin','owner') NOT NULL DEFAULT 'default',
   PRIMARY KEY (`id`),
@@ -58,12 +58,12 @@ CREATE TABLE IF NOT EXISTS `users` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 --
--- Dumping data for table `users`
+-- Dumping data for table `user`
 --
 
-INSERT INTO `users` (`id`, `realname`, `username`, `password`, `email`, `role`) VALUES
-(1, 'Ahmed Abdelrahim', 'admin', '21232f297a57a5a743894a0e4a801fc3', 'jadolyo@gmail.com', 'owner'),
-(2, 'Ahmed Abdelrahim', 'jadolyo', 'a702137a69a44c750763ebbfccebb7ba', 'jadolyo@live.com', 'default');
+INSERT INTO `user` (`id`, `realname`, `username`, `password`, `email`, `role`) VALUES
+(1, 'Ahmed Abdelrahim', 'admin', '3f5cbfff0a2c6d067e53a582f08799652e24b446c50fedaee28e335d7f1a8527', 'jadolyo@gmail.com', 'owner'),
+(2, 'Ahmed Abdelrahim', 'jadolyo', '1effefb9702ef6244fd4be8b60cab4ca4f05f67f3dc7db063e002db58f36fb48', 'jadolyo@live.com', 'default');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

@@ -6,6 +6,7 @@ class Bootstrap {
 
 		$url = isset($_GET['url']) ? $_GET['url'] : null;
 		$url = rtrim($url, '/');
+		$url = filter_var($url, FILTER_SANITIZE_URL);
 		$url = explode('/', $url);
 
 		//print_r($url);

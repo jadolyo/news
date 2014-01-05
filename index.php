@@ -1,8 +1,6 @@
 <?php
 
-require 'config/paths.php';
-require 'config/database.php';
-require 'config/constants.php';
+require 'config.php';
 
 // This is autoloader for libs files.
 function __autoload($class)
